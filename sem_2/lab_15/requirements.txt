@@ -1,0 +1,4 @@
+selenium
+psycopg2-binary
+pypika
+webdriver-manager
