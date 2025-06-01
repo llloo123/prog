@@ -16,3 +16,5 @@ class Car:
     def calculate_time(self):
         average_speed = 90  # Средняя скорость легкового автомобиля (км/ч)
         return self.distance / average_speed
+
+
