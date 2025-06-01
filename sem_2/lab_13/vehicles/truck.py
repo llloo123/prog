@@ -23,3 +23,5 @@ class Truck(Vehicle):
         if isinstance(factor, (int, float)):
             return Truck(self.distance * factor, self.load, self.fuel_price)
         raise TypeError("Unsupported operand type for *: 'Truck' and '{}'".format(type(factor).__name__))
+
+
