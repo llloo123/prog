@@ -28,7 +28,6 @@
 import tkinter as tk
 import random
 
-# Константы
 GRID_SIZE = 20
 GRID_WIDTH = 10
 GRID_HEIGHT = 20
@@ -110,7 +109,7 @@ class Tetris:
                  x2 = x1 + GRID_SIZE
                  y2 = y1 + GRID_SIZE
                  self.canvas.create_rectangle(x1, y1, x2, y2, fill="black")
-       #Изображение текущего фрагмента
+     
        if self.current_piece_shape:
            for i,row in enumerate(self.current_piece_shape):
               for j, cell in enumerate(row):
